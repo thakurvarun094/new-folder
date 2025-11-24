@@ -1,0 +1,63 @@
+/* Styling for the overall container */
+.container {
+    border: 1px solid black;
+    width: 801px; /* Adjust width as needed to match the image */
+    margin: 20px auto;
+}
+
+/* Styling for the header area (gray background) */
+.header {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black; /* Separator line */
+}
+
+.header h3 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+/* Red text styling for "Website" */
+.website-text {
+    color: red;
+    font-weight: bold;
+}
+
+/* Styling for the main navigation area padding */
+.navbar {
+    padding: 10px;
+}
+
+/* General list styling for the navigation links */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0; /* Vertical space between rows */
+    display: flex; /* Lines up list items horizontally */
+    gap: 10px; /* Space between the links/buttons */
+}
+
+/* Styling for the individual navigation links (button appearance) */
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px; 
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap; /* Keeps button text on one line */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block; /* Makes the entire link area clickable */
+}
+
+/* Specific colors for the first row (light blue/cyan) */
+.nav-list.top-row a {
+    background-color: #AFEEEE; /* PaleTurquoise */
+}
+
+/* Specific colors for the second row (light green) */
+.nav-list.bottom-row a {
+    background-color: #90EE90; /* LightGreen */
+}
