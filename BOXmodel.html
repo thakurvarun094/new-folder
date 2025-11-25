@@ -5,54 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOX MODEL</title>
     <style>
+        body {
+            background-color: rgb(31, 16, 66);
+            display: flex;              
+            justify-content: center;
+            align-items: center;        
+            height: 100vh;            
+            margin: 0;                  
+        }
         .blue {
             border: 15px solid blue;
             text-align: center;
             background-color: blue;
-            color:black;
-        
+            color: black;
         }
         .orange {
-         border: 20px solid rgb(255, 55, 0);
-         text-align: center;
-            background-color: rgb(255, 55, 0) ;
-            color:black;
+            border: 20px solid rgb(255, 55, 0);
+            text-align: center;
+            background-color: rgb(255, 55, 0);
+            color: black;
         }
         .yellow {
             border: 20px solid yellow;
             text-align: center;
             background-color: rgb(255, 251, 0);
-            color:black;
-            
+            color: black;
         }
         .aqua {
-           border: 70px solid aquamarine;
-           text-align: center;
-            background-color:aquamarine;
-            color:black;
-        }
-        body{
-            background-color: rgb(31, 16, 66);
+            border: 70px solid aquamarine;
+            text-align: center;
+            background-color: aquamarine;
+            color: black;
         }
     </style>
 </head>
 <body>
 
 <div class="orange">Margin
-<div class="blue">Border
-    <div class="yellow">Padding
-        <div class="aqua">Content
-            
+    <div class="blue">Border
+        <div class="yellow">Padding
+            <div class="aqua">Content</div>
         </div>
     </div>
 </div>
-</div>
-
-
-
-
-</div>
-    
 
 </body>
 </html>
